@@ -91,10 +91,14 @@ class App extends Component {
 
   onEdit = (code) => {
 
-    const value = parseInt(code.slice(1),16);
-    console.log(value);
+    const value1 = parseInt(code.slice(1,3),16);
+    const value2 = parseInt(code.slice(3,5),16);
+    const value3 = parseInt(code.slice(5,7),16);
+
     this.setState({
-      value : value,
+      value1 : value1,
+      value2 : value2,
+      value3 : value3,
       code : code,
     });
   }

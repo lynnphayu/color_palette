@@ -1,7 +1,7 @@
 .palette{
   display: block;
-  height: 250px;
-  width: 180px;
+  height: 280px;
+  width: 200px;
   margin: auto;
   box-shadow: 0 0 0.1em 0.03em rgba(0, 0, 0, 0.7);
   clear: both;
@@ -17,8 +17,8 @@
 
 .rangeslider {
   display: block;
-  width: 200px;
-  margin-top: 30px;
+  width: 250px;
+  margin-top: 40px;
   position: relative;
   background: #e6e6e6;
 }
@@ -53,8 +53,8 @@
   top: 0;
 }
 .rangeslider-horizontal .rangeslider__handle {
-  width: 16px;
-  height: 16px;
-  border-radius: 16px;
-  top: -8px;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  top: -10px;
 }
